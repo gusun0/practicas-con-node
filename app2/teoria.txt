@@ -1,0 +1,14 @@
+Patrones: forma de resolver un problema
+
+Patrones creacionales: ¿ Cuál es la mejor forma de crear un objeto?
+Patrones de diseño: MVC
+Patrones de comportamiento
+
+MVC: MODELO VISTA CONTROLADOR
+
+(Modelo: Realiza las peticiones a la BD)
+(Vista: .hbs)
+(Controlador: Route)
+
+Un usuario ingresa a la ruta noticias/all
+

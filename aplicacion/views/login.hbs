@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-6">
+			<form action="/login" method="post">
+				<div class="form-group">
+					<input type="email" name="usuario" placeholder="ejemplo@correo.com" class="form-control">
+				</div>
+
+				<div class="form-group">
+					<input type="password" name="password" placeholder="*********" class="form-control">
+				</div>
+
+				<button type="submit" class="btn btn-primary btn-block">
+				Ingresar usuario
+				</button>
+				<h5 class="text-info">{{message}}</h5>
+			</form>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,10 @@
+<!-- Siempre que subimos un archivo multimedia es necesario que le indiquemos el enctype-->
+
+<h5>Subí tu foto</h5>
+<form method="post" action="/files" enctype="multipart/form-data">
+
+  <input type="file" name="imagen">
+  <button type="submit">Submit</button>
+
+   {{message}}
+</form>
